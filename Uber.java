@@ -30,14 +30,14 @@ class Uber {
             // execute a "SET search_path TO uber" statement before
             // executing any queries. Use the following code snippet to do so:
             //
-            // queryString = "SET search_path TO uber";
-            // pStatement = conn.prepareStatement(queryString);
-            // pStatement.execute();
-
-            // YOUR CODE GOES HERE
-	    
 	    url = "jdbc:postgresql://localhost:5432/csc343h-g5kumars";
 	    conn = DriverManager.getConnection(url, "g5kumars", "");
+
+             queryString = "SET search_path TO uber";
+             pStatement = conn.prepareStatement(queryString);
+             pStatement.execute();
+
+            // YOUR CODE GOES HERE
 	    
 	    //read input
 	    Scanner reader = new Scanner(System.in);
