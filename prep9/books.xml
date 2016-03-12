@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE quiz SYSTEM "books.dtd">
+<Book title="Thomas the tank engine" year="2013">
+	<rating>3</rating>
+	<rating>0</rating>
+	<review username="XxBookLover420xX">Very good book!</review>
+</Book>
+<Book title="UofTTears" year="2014">
+	<rating>4</rating>
+	<rating>5</rating>
+</Book>
+<Book title="CSC343:best course at U of T?" year="2010">
+	<rating>2</rating>
+	<rating>1</rating>
+</Book>
+

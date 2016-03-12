@@ -1,0 +1,9 @@
+<!ELEMENT Book (Author+, Rating+, Reviews*)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Rating (EMPTY)>
+<!ELEMENT Review (#PCDATA)>
+
+<!ATTLIST Book title CDATA #REQUIRED
+				year CDATA #REQUIRED>
+<!ATTLIST Review username CDATA #IMPLIED>
+<!ATTLIST Rating rating 0|1|2|3|4|5 #REQUIRED>
