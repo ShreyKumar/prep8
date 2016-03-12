@@ -1,0 +1,46 @@
+Command: galax-run q1.xp
+
+Output:
+<PROPERTY id="p927511" owner="owner_2">
+      <ADDRESS>
+         <STREET_NUM>80</STREET_NUM>
+         <STREET>Beverly Street</STREET>
+         <CITY>Toronto</CITY>
+         <PROVINCE>ON</PROVINCE>
+         <COUNTRY>Canada</COUNTRY>
+         <POSTCODE>M5T 1Y1</POSTCODE>
+      </ADDRESS>
+      <RESIDENTIAL>
+         <MULTI_UNIT>
+            <UNIT id="punit 1" bedrooms="1" ca="no" utilities="yes">
+               <INFO>
+                  <RENT_AMOUNT>500</RENT_AMOUNT>
+                  <RENT_PERIOD>monthly</RENT_PERIOD>
+               </INFO>
+            </UNIT>
+            <UNIT id="punit 2" bedrooms="2" ca="no" utilities="yes">
+               <INFO>
+                  <RENT_AMOUNT>400</RENT_AMOUNT>
+                  <RENT_PERIOD>monthly</RENT_PERIOD>
+               </INFO>
+            </UNIT>
+            <UNIT id="punit 3" bedrooms="1" ca="no" utilities="yes">
+               <INFO rented_by="renter_1">
+                  <RENT_AMOUNT>800</RENT_AMOUNT>
+                  <RENT_PERIOD>monthly</RENT_PERIOD>
+            </INFO>
+            </UNIT>
+      </MULTI_UNIT>
+      </RESIDENTIAL>
+   </PROPERTY>
+
+Command: galax-run q2.xp
+
+Output:
+text {"5000"}, text {"2000"}, text {"15000"}, text {"1875"}
+
+
+Command: galax-run q3.xp
+
+Output:
+attribute id {"p321456"}, attribute id {"p3214563"}
