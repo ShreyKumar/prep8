@@ -1,20 +1,20 @@
-<?xml version="1.0" standalone="no" ?>
+<?xml version="1.0" standalone="no"?>
 <!DOCTYPE Booklist SYSTEM "books.dtd">
 <Booklist>
 	<Book title="Thomas the tank engine" year="2013">
 		<Author>Thomas TankEngine</Author>
-		<Rating rating="3"></Rating>
-		<Rating rating="0"></Rating>
+		<Rating rating="3"/>
+		<Rating rating="0"/>
 		<Review username="XxBookLover420xX">Very good book!</Review>
 	</Book>
 	<Book title="UofTTears" year="2014">
 		<Author>John Cena</Author>
-		<Rating rating="4"></Rating>
-		<Rating rating="5"></Rating>
+		<Rating rating="4"/>
+		<Rating rating="5"/>
 	</Book>
 	<Book title="Make America Great Again" year="2010">
 		<Author>Donald J. Trump</Author>
-		<Rating rating="2"></Rating>
-		<Rating rating="1"></Rating>
+		<Rating rating="2"/>
+		<Rating rating="1"/>
 	</Book>
 </Booklist>
